@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/url_launcher_android/intermediates/res/merged/debug/values-th/values-th.xml",
+            "map": [
+                {
+                    "source": "/Users/jr3p3tt0/.gradle/caches/transforms-3/d100883ff4a67d7a4291a8b483f7352c/transformed/core-1.6.0/res/values-th/values-th.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/url_launcher_android/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml",
+            "map": [
+                {
+                    "source": "/Users/jr3p3tt0/.gradle/caches/transforms-3/d100883ff4a67d7a4291a8b483f7352c/transformed/core-1.6.0/res/values-th/values-th.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

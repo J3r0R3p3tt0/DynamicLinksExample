@@ -1,0 +1,198 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.firebase.dynamiclinksexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:firebase_dynamic_links] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/firebase_dynamic_links/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+11-->[:firebase_dynamic_links] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/firebase_dynamic_links/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-64
+12
+13    <application
+13-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:3:3-48:17
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.6.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/d100883ff4a67d7a4291a8b483f7352c/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:5:5-39
+17        android:label="firebase_dynamic_links_example" >
+17-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:4:5-51
+18        <activity
+18-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:6:5-42:16
+19            android:name="io.flutter.embedding.android.FlutterActivity"
+19-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:7:7-66
+20            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+20-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:10:7-157
+21            android:exported="true"
+21-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:13:7-30
+22            android:hardwareAccelerated="true"
+22-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:11:7-41
+23            android:launchMode="singleTop"
+23-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:8:7-37
+24            android:theme="@style/LaunchTheme"
+24-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:9:7-41
+25            android:windowSoftInputMode="adjustResize" >
+25-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:12:7-49
+26
+27            <!--
+28           Specifies an Android theme to apply to this Activity as soon as
+29           the Android process has started. This theme is visible to the user
+30           while the Flutter UI initializes. After that, this theme continues
+31           to determine the Window background behind the Flutter UI.
+32            -->
+33            <meta-data
+33-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:18:7-21:9
+34                android:name="io.flutter.embedding.android.NormalTheme"
+34-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:19:9-64
+35                android:resource="@style/NormalTheme" />
+35-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:20:9-46
+36            <!--
+37           Displays an Android View that continues showing the launch screen
+38           Drawable until Flutter paints its first frame, then this splash
+39           screen fades out. A splash screen is useful to avoid any visual
+40           gap between the end of Android's launch screen and the painting of
+41           Flutter's first frame.
+42            -->
+43            <meta-data
+43-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:27:7-30:9
+44                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+44-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:28:9-73
+45                android:resource="@drawable/launch_background" />
+45-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:29:9-55
+46
+47            <intent-filter>
+47-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:31:7-34:23
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:32:9-60
+48-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:32:17-58
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:33:9-68
+50-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:33:19-66
+51            </intent-filter>
+52            <intent-filter android:autoVerify="true" >
+52-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:35:7-41:23
+52-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:35:22-47
+53                <action android:name="android.intent.action.VIEW" />
+53-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:36:9-60
+53-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:36:17-58
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:37:9-67
+55-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:37:19-65
+56                <category android:name="android.intent.category.BROWSABLE" />
+56-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:38:9-69
+56-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:38:19-67
+57
+58                <data
+58-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:39:9-80
+59                    android:host="flutterfiretests.page.link"
+59-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:39:15-56
+60                    android:scheme="http" />
+60-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:39:57-78
+61                <data
+61-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:39:9-80
+62                    android:host="flutterfiretests.page.link"
+62-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:39:15-56
+63                    android:scheme="https" />
+63-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:39:57-78
+64            </intent-filter>
+65        </activity>
+66        <!--
+67         Don't delete the meta-data below.
+68         This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+70-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:45:5-47:27
+71            android:name="flutterEmbedding"
+71-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:46:7-38
+72            android:value="2" />
+72-->/Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/android/app/src/main/AndroidManifest.xml:47:7-24
+73
+74        <service
+74-->[:firebase_dynamic_links] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/firebase_dynamic_links/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[:firebase_dynamic_links] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/firebase_dynamic_links/intermediates/library_manifest/debug/AndroidManifest.xml:10:18-89
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:20.2.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/24ab2329e65c107b3ab9ce611efb73c5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/6c47fac128d5f12c265efbbf56c3cd26/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:25:13-37
+78            <meta-data
+78-->[:firebase_dynamic_links] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/firebase_dynamic_links/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-13:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.dynamiclinks.FlutterFirebaseAppRegistrar"
+79-->[:firebase_dynamic_links] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/firebase_dynamic_links/intermediates/library_manifest/debug/AndroidManifest.xml:12:17-131
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_dynamic_links] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/firebase_dynamic_links/intermediates/library_manifest/debug/AndroidManifest.xml:13:17-82
+81            <meta-data
+81-->[:firebase_core] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+82-->[:firebase_core] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_core] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/6c47fac128d5f12c265efbbf56c3cd26/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:26:13-28:85
+85                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+85-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/6c47fac128d5f12c265efbbf56c3cd26/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:27:17-133
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/6c47fac128d5f12c265efbbf56c3cd26/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:28:17-82
+87        </service>
+88
+89        <activity
+89-->[:url_launcher_android] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+90            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+90-->[:url_launcher_android] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+91            android:exported="false"
+91-->[:url_launcher_android] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+92            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+92-->[:url_launcher_android] /Users/jr3p3tt0/Downloads/flutterfire-master/packages/firebase_dynamic_links/firebase_dynamic_links/example/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+93
+94        <provider
+94-->[com.google.firebase:firebase-common:20.2.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/24ab2329e65c107b3ab9ce611efb73c5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+95            android:name="com.google.firebase.provider.FirebaseInitProvider"
+95-->[com.google.firebase:firebase-common:20.2.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/24ab2329e65c107b3ab9ce611efb73c5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+96            android:authorities="io.flutter.plugins.firebase.dynamiclinksexample.firebaseinitprovider"
+96-->[com.google.firebase:firebase-common:20.2.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/24ab2329e65c107b3ab9ce611efb73c5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-common:20.2.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/24ab2329e65c107b3ab9ce611efb73c5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+98            android:exported="false"
+98-->[com.google.firebase:firebase-common:20.2.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/24ab2329e65c107b3ab9ce611efb73c5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+99            android:initOrder="100" />
+99-->[com.google.firebase:firebase-common:20.2.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/24ab2329e65c107b3ab9ce611efb73c5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:18.0.1] /Users/jr3p3tt0/.gradle/caches/transforms-3/93ce3d592bf2229e0363d614384ff10c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:18.0.1] /Users/jr3p3tt0/.gradle/caches/transforms-3/93ce3d592bf2229e0363d614384ff10c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:18.0.1] /Users/jr3p3tt0/.gradle/caches/transforms-3/93ce3d592bf2229e0363d614384ff10c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:18.0.1] /Users/jr3p3tt0/.gradle/caches/transforms-3/93ce3d592bf2229e0363d614384ff10c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+105
+106        <meta-data
+106-->[com.google.android.gms:play-services-basement:18.1.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/59e7e9ef5cbb5c63b7a090ded05f125a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+107            android:name="com.google.android.gms.version"
+107-->[com.google.android.gms:play-services-basement:18.1.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/59e7e9ef5cbb5c63b7a090ded05f125a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+108            android:value="@integer/google_play_services_version" />
+108-->[com.google.android.gms:play-services-basement:18.1.0] /Users/jr3p3tt0/.gradle/caches/transforms-3/59e7e9ef5cbb5c63b7a090ded05f125a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+109
+110        <uses-library
+110-->[androidx.window:window:1.0.0-beta04] /Users/jr3p3tt0/.gradle/caches/transforms-3/85f6fc413095e2c5f8d2e2f171fb7238/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+111            android:name="androidx.window.extensions"
+111-->[androidx.window:window:1.0.0-beta04] /Users/jr3p3tt0/.gradle/caches/transforms-3/85f6fc413095e2c5f8d2e2f171fb7238/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+112            android:required="false" />
+112-->[androidx.window:window:1.0.0-beta04] /Users/jr3p3tt0/.gradle/caches/transforms-3/85f6fc413095e2c5f8d2e2f171fb7238/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+113        <uses-library
+113-->[androidx.window:window:1.0.0-beta04] /Users/jr3p3tt0/.gradle/caches/transforms-3/85f6fc413095e2c5f8d2e2f171fb7238/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+114            android:name="androidx.window.sidecar"
+114-->[androidx.window:window:1.0.0-beta04] /Users/jr3p3tt0/.gradle/caches/transforms-3/85f6fc413095e2c5f8d2e2f171fb7238/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+115            android:required="false" />
+115-->[androidx.window:window:1.0.0-beta04] /Users/jr3p3tt0/.gradle/caches/transforms-3/85f6fc413095e2c5f8d2e2f171fb7238/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+116    </application>
+117
+118</manifest>
